@@ -11,6 +11,11 @@
     "sidebar main main footer";
     font-family: 'PT Sans', sans-serif;
   }
+
+.header-bottom-right {
+  display: flex;
+  gap: 10px;
+}
     
   .one {
     background-color: #F8F8FF;
@@ -165,9 +170,9 @@ padding: 0;
   
   .cards {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;justify-content: space-between;
     flex-wrap: wrap;
-    gap: 64px;
+    /* gap: 64px; */
   }
   .card {
     height: 150px;
