@@ -1,0 +1,261 @@
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 15% 45% 15% 25%;
+    grid-template-rows: 22% auto;
+    height: 100vh;
+    grid-template-areas: 
+    "sidebar header header header"
+    "sidebar main main footer"
+    "sidebar main main footer"
+    "sidebar main main footer";
+    font-family: 'PT Sans', sans-serif;
+  }
+    
+  .one {
+    background-color: #F8F8FF;
+    grid-area: header;
+  }
+  .two {
+    background-color: #87CEFA;
+    grid-area: sidebar;
+  }
+  .three {
+    background-color: rgba(226,232,240,255);
+    grid-area: main;
+  }
+  .four {
+    background-color: rgba(226,232,240,255);
+    border: 1px solid black;
+    border-radius: 5px;
+    grid-area: footer;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+ul {
+    list-style-type: none;
+font-size: 17px;
+font-weight: 500;
+padding: 0;
+}
+.nav-icons {
+    width: 20px;
+    margin-right: 12px;
+}
+.nav-bar li {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    margin-left: 18px;
+    padding-right: 8px;
+    
+}
+.text-two {
+    margin-top: 50px;
+}
+
+  .dashboard {
+      display: flex;
+      align-items: center;
+  }
+  .dash-image {
+    width: 43px;
+    padding-right: 8px;
+}
+
+  .text-sidebar {
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+      justify-content: space-around;
+      height: 80vh;
+  }
+
+  .top-header {
+      display: flex;
+      justify-content: space-between;
+      padding-left: 25px;
+      padding-right: 25px;
+      padding-top: 20px;
+  }
+
+  .search {
+      display: flex;
+      align-items: center;
+  }
+
+  .header-right {
+      display: flex;
+
+  }
+
+  .header-bar {
+      display: flex;
+      align-items: center;
+  }
+
+  .header-icons {
+    width: 27px;
+    margin-right: 12px;
+  }
+
+#myform {
+    display: flex;
+}
+
+.search-input {
+    padding-left: 10px;
+    width: 45vw;
+    max-width: 471px;
+    height: 25px;
+    background-color: rgba(226,232,240,255);
+    border: none;
+    border-radius: 15px;
+  }
+
+  .user-icons  {
+    width: 27px;
+    margin-right: 12px;
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: white;
+  }
+  .header-bottom-left {
+      display: flex;
+      align-items: center;
+  }
+
+  .bottom-icons {
+    width: 70px;
+    margin-right: 12px;
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: white;
+    height: 60px;
+  }
+  
+  .header-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+  }
+  
+  #button {
+    font-size: 1.1rem;
+    border-radius: 10px;
+    padding: 5px 20px;
+    background-color: lightblue;
+  }
+  #button:hover {
+    cursor: pointer;
+  }
+
+  .three {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 20px;
+}
+  
+  .cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 64px;
+  }
+  .card {
+    height: 150px;
+    width: 475px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    background-image: -webkit-linear-gradient(left, #88c7ff, #88c7ff 2%, transparent 2%, transparent 100%);
+    padding-top: 20px;
+
+  }
+  .card-text {
+    padding-left: 20px;
+    width: 90%;
+    padding-bottom: 10px;
+  }
+  .project {
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+
+  .footer-card {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 0.7rem;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: white;
+    width: 250px;
+  }
+.name {
+  padding: 0;
+  margin: 0;
+  font-size: 0.7rem;
+}
+p {
+  margin: 0;
+}
+.footer-right {
+  padding-left: 20px;
+}
+.trending {
+  padding-top: 120px;
+  font-weight: bold;
+}
+.trending:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.headings {
+ font-weight: bold;
+ padding-bottom: 10px;
+}
+.headings:hover {
+  text-decoration: underline;
+  cursor: pointer;
+ }
+.dashboard:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  -webkit-transform: scale(1.07);
+
+}
+ul li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  -webkit-transform: scale(1.07);
+}
+
+.header-icons,
+.bottom-icons {
+  text-decoration: underline;
+  cursor: pointer;
+  -webkit-transform: scale(1.07);
+}
+
+.fa-github {
+  color: var(--primary-light);
+  font-size: 24px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.fa-github:hover {
+  transform: rotate(360deg) scale(1.2);
+}
+
+.signature-footer {
+  padding-top: 45px;
+}
