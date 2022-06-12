@@ -12,6 +12,9 @@
     font-family: 'PT Sans', sans-serif;
   }
 
+.form {
+  visibility: hidden;
+}
 .header-bottom-right {
   display: flex;
   gap: 10px;
